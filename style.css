@@ -72,6 +72,7 @@ nav ul a {
     justify-content: center;
     text-align: center;
     border-radius: 16px;
+    : ;
 }
 
 .banner-heading {
@@ -94,11 +95,10 @@ nav ul a {
 }
 
 .banner-btn {
-    background-color: #f4fdff;
+    background:rgba(225, 33, 33,.6)
     margin: 0px 200px;
     padding: 30px 0px 30px 0px;
     border-radius: 25px;
-    opacity: -7px;
 
 }
 
@@ -169,4 +169,14 @@ p {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
+}
+.seven-sectio{
+    display: flex;
+}
+.seven-sectio-main{
+   justify-content: center;
+   border:1px solid #FF5400;
+}
+.input-section{
+    display: inline-block;
 }
