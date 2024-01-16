@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@900&family=Mulish:wght@300;400;700;800&display=swap');
+
+.Mulish {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@900&family=Mulish:wght@300;400;700;800&display=swap');
+
+.inter {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+
+.primary-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 15px 50px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav-logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul a {
+    margin-left: 44px;
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bannersection {
+    background-image: url(./Images/bannerpic.png);
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.banner-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 400;
+    padding-top: 106px;
+}
+
+.banner-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 247px;
+    margin-bottom: 48px;
+}
+
+.banner-btn {
+    background-color: #f4fdff;
+    margin: 0px 200px;
+    padding: 30px 0px 30px 0px;
+    border-radius: 25px;
+    opacity: -7px;
+
+}
+
+.third-section {
+    display: flex;
+    align-items: center;
+}
+
+.third-section-text {
+    color: #949494;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.third-section {
+    padding: 24px 0;
+    color: #171a21;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fifth-section {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.fifth-section-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-section-card-one,
+.fifth-section-card-two,
+.fifth-section-card-three,
+h1,
+p {
+    padding: 10px 55px 15px 15px;
+}
+
+.fifth-section-card-one {
+    background-color: #fffbf7;
+    margin-right: 12px;
+}
+
+.fifth-section-card-two {
+    background-color: #f4fdff;
+    margin-left: 12px;
+}
+
+.fifth-section-card-three {
+    background-color: #fef6f6;
+    margin: 24px 253px 100px 253px;
+}
+
+.fifth-section-heading {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.fifth-section-passage {
+    color: #949494;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
