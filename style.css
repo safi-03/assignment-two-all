@@ -19,7 +19,7 @@
     padding: 0px;
 }
 
-body {
+.container {
     max-width: 1170px;
     margin: 0px auto;
 }
@@ -31,7 +31,7 @@ body {
     padding: 15px 50px;
     border: none;
     color: #FFF;
-    text-align: center;
+    text-align:center;
     font-family: Mulish;
     font-size: 16px;
     font-weight: 700;
@@ -65,6 +65,7 @@ nav ul a {
     font-weight: 400;
 }
 
+
 .bannersection {
     background-image: url(./Images/bannerpic.png);
     width: 100%;
@@ -72,7 +73,7 @@ nav ul a {
     justify-content: center;
     text-align: center;
     border-radius: 16px;
-    : ;
+
 }
 
 .banner-heading {
@@ -94,13 +95,19 @@ nav ul a {
     margin-bottom: 48px;
 }
 
-.banner-btn {
-    background:rgba(225, 33, 33,.6)
+/* .banner-btn {
+    background: rgba(225, 33, 33, .6);
     margin: 0px 200px;
     padding: 30px 0px 30px 0px;
     border-radius: 25px;
 
-}
+} */
+
+/* .banner-button{
+        display: flex;
+
+    } */
+
 
 .third-section {
     display: flex;
@@ -117,6 +124,31 @@ nav ul a {
 .third-section {
     padding: 24px 0;
     color: #171a21;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.four-section-row {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.four-section {
+    text-align: center;
+}
+
+.four-section-h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.four-section-p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
@@ -170,13 +202,287 @@ p {
     font-size: 16px;
     font-weight: 400;
 }
-.seven-sectio{
+
+.seven-sectio {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
 }
-.seven-sectio-main{
-   justify-content: center;
-   border:1px solid #FF5400;
+
+.seven-sectio-main {
+    justify-content: center;
+    border: 1px solid #FF5400;
+    margin: 10px 10ps 10px 10px;
+    padding-right: 25px;
+    border-radius: 25px;
 }
-.input-section{
-    display: inline-block;
+
+.input-emain,
+.input-name {
+    background-color: #dfd6d6;
+}
+
+.input-section,
+input {
+    display: block;
+    margin-top: 24px;
+    padding: 18px 35px;
+    color: #b1b1b2;
+    border-radius: 8px;
+    border: 0px;
+    width: 86%;
+}
+
+.footer {
+    background-color: #f3f3f3;
+
+}
+
+.footer-contain {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 33px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #131318;
+}
+
+.footertext {
+    justify-content: center;
+    text-align: center;
+    color: #2d2c2c;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 247px;
+    margin-bottom: 48px
+}
+
+.footer-logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.primary-btn-two {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 15px 50px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 25px;
+}
+
+.banner-btn-main {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-logo-text {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul a {
+        margin: 10px 0;
+        margin-left: 0;
+    }
+
+    .bannersection {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .banner-heading {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .banner-text {
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .banner-button {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .banner-btn-main {
+        width: 60%;
+        height: 55%;
+        margin: 0 auto;
+        gap:25px;
+
+    }
+    .where-go {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .when{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+        
+    }
+    .select-type{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+        
+    }
+    .primary-btn{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+        
+    }
+
+
+
+    /* third-section  */
+    .third-section {
+        flex-direction: column;
+
+    }
+
+    .third-section,
+    h1 {
+        font-size: 20px;
+        font-weight: 800;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .third-section,
+    img {
+        padding-top: 24px;
+
+    }
+
+    .four-section-row {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    /* fifth section */
+    .fifth-section,
+    h1 {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 20px;
+    }
+
+    .fifth-section-card {
+        flex-direction: column;
+    }
+
+    .fifth-section-card-one,
+    .fifth-section-card-two,
+    .fifth-section-card-three {
+        padding: 0px;
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .fifth-section-card-one,
+    .fifth-section-card-two,
+    .fifth-section-card-three {
+        margin: 16px 0;
+        border-radius: 16px;
+        border: 2px solid #b1b1b2;
+    }
+
+    .fifth-section-card-one,
+    .fifth-section-card-two,
+    .fifth-section-card-three,
+    h1 {
+        font-size: 20px;
+        font-weight: 600;
+
+
+    }
+
+    .fifth-section-card-one,
+    .fifth-section-card-two,
+    .fifth-section-card-three,
+    img,
+    .fifth-section-heading,
+    .fifth-section-passage {
+        padding-left: 32px;
+    }
+
+    /* seven section */
+    .seven-sectio {
+        flex-direction: column;
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .subscribe {
+        margin-top: 24px;
+        padding: 18px 35px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .seven-sectio>img {
+        width: 95%;
+        margin: 0px auto;
+        margin-bottom: 24px;
+    }
+
+    /* footer  */
+    .footer-contain {
+        max-width: 600px;
+        margin: 0px auto;
+    }
+
+    .footer-logo-text {
+        justify-content: center;
+        align-items: center;
+        padding: 0 85px 0px 155px;
+
+    }
+
+    .footertext {
+        width: 95%;
+        margin: 0 auto;
+        padding: 20px 24px;
+    }
+
 }
